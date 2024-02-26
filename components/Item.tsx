@@ -24,7 +24,7 @@ const Item = ({ item }: { item: ItemProp }) => {
           {item.item}
         </h3>
         <div className='card-actions w-full md:w-auto'>
-          <button className='btn btn-ghost bg-my-secondary bottom-1 outline btn-sm text-xs sm:text-md outline-secondary font-bold px-1 md:px-4 w-full'>
+          <button className='btn btn-ghost bg-my-secondary text-white hover:text-my-secondary bottom-1 outline btn-sm text-xs sm:text-md outline-secondary font-bold px-1 md:px-4 w-full'>
             {typeof item.price === 'number'
               ? `$${item.price?.toFixed(2)}`
               : item.price}

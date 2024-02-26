@@ -5,20 +5,20 @@ const Category = ({ label }: { label: string }) => {
   const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/leyton/'
 
   const categories = [
-    { label: 'Hot Drinks', image: baseUrl + 'image.JPG' },
-    { label: 'Mojito', image: baseUrl + 'image.JPG' },
-    { label: 'Frappes', image: baseUrl + 'image.JPG' },
-    { label: 'Smoothies', image: baseUrl + 'image.JPG' },
-    { label: 'Shakes', image: baseUrl + 'image.JPG' },
-    { label: 'iced', image: baseUrl + 'image.JPG' },
-    { label: 'Drinks', image: baseUrl + 'image.JPG' },
-    { label: 'Fruits', image: baseUrl + 'image.JPG' },
-    { label: 'Cakes', image: baseUrl + 'image.JPG' },
-    { label: 'Ice creams', image: baseUrl + 'image.JPG' },
-    { label: 'Breakfast', image: baseUrl + 'image.JPG' },
-    { label: 'Lunch', image: baseUrl + 'image.JPG' },
-    { label: 'Dinner', image: baseUrl + 'image.JPG' },
-    { label: 'Sides', image: baseUrl + 'image.JPG' },
+    { label: 'Hot Drinks', image: baseUrl + 'IMG_8019.JPG' },
+    { label: 'Mojito', image: baseUrl + 'DSC00846.JPG' },
+    { label: 'Frappes', image: baseUrl + 'DSC01004.JPG' },
+    { label: 'Smoothies', image: baseUrl + 'DSC00855.JPG' },
+    { label: 'Shakes', image: baseUrl + 'DSC00814.JPG' },
+    { label: 'iced', image: baseUrl + 'IMG_8032.JPG' },
+    { label: 'Drinks', image: baseUrl + '283A8564.JPG' },
+    { label: 'Fruits', image: baseUrl + '283A8553.JPG' },
+    { label: 'Cakes', image: baseUrl + 'DSC00871.JPG' },
+    { label: 'Ice creams', image: baseUrl + '283A8578.JPG' },
+    { label: 'Breakfast', image: baseUrl + 'DSC00786.JPG' },
+    { label: 'Lunch', image: baseUrl + '283A8601.JPG' },
+    { label: 'Dinner', image: baseUrl + 'DSC00751.JPG' },
+    { label: 'Sides', image: baseUrl + 'DSC00794.JPG' },
   ]
 
   const item = categories?.find(
