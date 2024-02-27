@@ -21,7 +21,7 @@ const data = [
     category: 'Hot Drinks',
     item: 'Cortado',
     price: 2.5,
-    image: 'Cortado.JPG',
+    image: '221A8965.JPG',
   },
   {
     category: 'Hot Drinks',

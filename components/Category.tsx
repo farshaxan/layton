@@ -7,7 +7,7 @@ const Category = ({ label }: { label: string }) => {
   const categories = [
     { label: 'Hot Drinks', image: baseUrl + 'IMG_8019.JPG' },
     { label: 'Mojito', image: baseUrl + 'DSC00846.JPG' },
-    { label: 'Frappes', image: baseUrl + 'DSC01004.JPG' },
+    { label: 'Frappes', image: baseUrl + '221A9076.JPG' },
     { label: 'Smoothies', image: baseUrl + 'DSC00855.JPG' },
     { label: 'Shakes', image: baseUrl + 'DSC00814.JPG' },
     { label: 'iced', image: baseUrl + 'IMG_8032.JPG' },
