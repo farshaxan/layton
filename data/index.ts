@@ -341,6 +341,12 @@ const data = [
     category: 'Breakfast',
     item: 'Malawax Iyo oodkac',
     price: 4,
+    image: '283A7996.jpg',
+  },
+  {
+    category: 'Breakfast',
+    item: 'Malawax Iyo malab',
+    price: 2,
     image: 'DSC00786.JPG',
   },
   {
@@ -459,7 +465,7 @@ const data = [
   },
   {
     category: 'Dinner',
-    item: 'Barbecue burger',
+    item: 'BBQ burger',
     price: 5.5,
     image: '221A9087.JPG',
   },
