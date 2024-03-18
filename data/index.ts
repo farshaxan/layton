@@ -643,6 +643,22 @@ const data = [
     price: 7,
     image: '221A9128.JPG',
   },
+  {
+    category: 'Ramadan',
+    item: 'Package One',
+    description:
+      'Mishary, timir, suqaar,2 sambuus, 4 bur macaan, 2 bur, 1 boil egg,2 malawax, fruits, qaxwo, 1 cabitan',
+    price: 9,
+    image: '1I6A9672.JPG',
+  },
+  {
+    category: 'Ramadan',
+    item: 'Package Two',
+    description:
+      'Mishary,timir, qaxwo, fruit ,1 cabitan, 2 bur , 2 sambuus , 2 malawax, timir , 4 bur macaan',
+    price: 7,
+    image: '1I6A9682.JPG',
+  },
 ]
 
 const noImageAvailable =
@@ -655,6 +671,7 @@ export const getItems = () => {
     ...item,
     image: item?.image ? imageBaseUrl + item.image : noImageAvailable,
     price: item?.price || 0,
+    description: item?.description || '',
   }))
 }
 

@@ -5,6 +5,7 @@ const Category = ({ label }: { label: string }) => {
   const baseUrl = 'https://farshaxan.blr1.cdn.digitaloceanspaces.com/leyton/'
 
   const categories = [
+    { label: 'Ramadan', image: baseUrl + '1I6A9672.JPG' },
     { label: 'Hot Drinks', image: baseUrl + 'IMG_8019.JPG' },
     { label: 'Mojito', image: baseUrl + 'DSC00846.JPG' },
     { label: 'Frappes', image: baseUrl + '221A9076.JPG' },

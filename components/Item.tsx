@@ -6,6 +6,7 @@ interface ItemProp {
   item: string
   price: number | string
   image: string
+  description?: string
 }
 const Item = ({ item }: { item: ItemProp }) => {
   return (
@@ -23,6 +24,7 @@ const Item = ({ item }: { item: ItemProp }) => {
         <h3 className='md:text-lg text-sm uppercase font-bold leading-nones'>
           {item.item}
         </h3>
+        <span className='text-xs'>{item?.description}</span>
         <div className='card-actions w-full md:w-auto'>
           <button className='btn btn-ghost bg-my-secondary text-white hover:text-my-secondary bottom-1 outline btn-sm text-xs sm:text-md outline-secondary font-bold px-1 md:px-4 w-full'>
             {typeof item.price === 'number'
