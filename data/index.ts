@@ -26,13 +26,13 @@ const data = [
   {
     category: 'Hot Drinks',
     item: 'Somali tea',
-    price: 1,
+    price: 1.5,
     image: '221A8982.JPG',
   },
   {
     category: 'Hot Drinks',
     item: 'Camel tea',
-    price: 1.5,
+    price: 2,
     image: '221A8982.JPG',
   },
   {
@@ -171,7 +171,7 @@ const data = [
   {
     category: 'Smoothies',
     item: 'Peach smoothies',
-    price: 3,
+    price: 3.5,
     image: '221A9046.JPG',
     Column8: 2,
   },
@@ -196,7 +196,7 @@ const data = [
   {
     category: 'Shakes',
     item: 'Chocolate shake',
-    price: 3.5,
+    price: 4,
     image: '221A9100.JPG',
   },
   {
@@ -226,31 +226,31 @@ const data = [
   {
     category: 'iced',
     item: 'Iced caramel Latte',
-    price: 2.5,
+    price: 3.5,
     image: '221A8056.JPG',
   },
   {
     category: 'iced',
     item: ' chai Ice  Tea',
-    price: 2.5,
+    price: 3.5,
     image: '283A8611.JPG',
   },
   {
     category: 'iced',
     item: 'Ice Coffee',
-    price: 2.5,
+    price: 3.5,
     image: 'IMG_8032.JPG',
   },
   {
     category: 'Drinks',
     item: 'Avocado',
-    price: 3,
+    price: 3.5,
     image: '221A9115.JPG',
   },
   {
     category: 'Drinks',
     item: 'Qare',
-    price: 1.5,
+    price: 3.5,
     image: '283A8564.JPG',
   },
   {
@@ -262,7 +262,7 @@ const data = [
   {
     category: 'Drinks',
     item: 'Babaay',
-    price: 2.5,
+    price: 3.5,
     image: '283A8591.JPG',
   },
   {
@@ -286,7 +286,7 @@ const data = [
   {
     category: 'Cakes',
     item: 'Vanilla Cake',
-    price: 3,
+    price: 3.5,
     image: '221A8113.JPG',
   },
   {
@@ -316,7 +316,7 @@ const data = [
   {
     category: 'Cakes',
     item: 'Oreo Cake',
-    price: 3.5,
+    price: 4,
     image: 'DSC00885.JPG',
   },
   {
@@ -352,7 +352,7 @@ const data = [
   {
     category: 'Breakfast',
     item: 'Fuul iyo malawax',
-    price: 3.5,
+    price: 4.5,
     image: '283A8002.JPG',
   },
   {
@@ -364,7 +364,7 @@ const data = [
   {
     category: 'Breakfast',
     item: 'Spanish omelette',
-    price: 2.5,
+    price: 3.5,
     image: '283A7989.JPG',
   },
   {
@@ -376,7 +376,7 @@ const data = [
   {
     category: 'Breakfast',
     item: 'Suqaar',
-    price: 3.5,
+    price: 4,
     image: 'IMG_8009.JPG',
   },
   {
@@ -424,7 +424,7 @@ const data = [
   {
     category: 'Lunch',
     item: 'Grilled chicken  And Egg',
-    price: 5.5,
+    price: 6.5,
     image: 'IMG_8028.JPG',
   },
   {
@@ -472,7 +472,7 @@ const data = [
   {
     category: 'Dinner',
     item: 'Sandwich Fish',
-    price: 5,
+    price: 6,
     image: 'IMG_8023.JPG',
   },
   {
@@ -484,7 +484,7 @@ const data = [
   {
     category: 'Dinner',
     item: 'Sandwich Meat',
-    price: 5,
+    price: 6,
     image: 'IMG_8023.JPG',
   },
   {
@@ -514,7 +514,7 @@ const data = [
   {
     category: 'Sides',
     item: 'Scallop fish',
-    price: 5,
+    price: 6.5,
     image: '221A9104.JPG',
   },
   {
@@ -532,7 +532,7 @@ const data = [
   {
     category: 'Sides',
     item: 'Malawax & Rab',
-    price: 3.5,
+    price: 5,
     image: 'DSC01019.JPG',
   },
   {
@@ -544,7 +544,7 @@ const data = [
   {
     category: 'Sides',
     item: 'Chicken Wings',
-    price: 4.5,
+    price: 5.5,
     image: '283A8582.JPG',
   },
   {
@@ -574,7 +574,7 @@ const data = [
   {
     category: 'Sides',
     item: 'Tuna Salad With Egg',
-    price: 4.5,
+    price: 6,
     image: '283A8556.JPG',
   },
   {
@@ -598,7 +598,7 @@ const data = [
   {
     category: 'Sides',
     item: 'Fish / Chicken Curry',
-    price: 5,
+    price: 6,
     image: 'DSC00947.JPG',
   },
   {
@@ -616,7 +616,7 @@ const data = [
   {
     category: 'Sides',
     item: 'Finger Fish',
-    price: 4.5,
+    price: 6,
     image: 'DSC00962.JPG',
   },
   {
@@ -634,7 +634,7 @@ const data = [
   {
     category: 'Sides',
     item: 'Tuna Salad ',
-    price: 4,
+    price: 5.5,
     image: 'IMG_8038.JPG',
   },
   {
